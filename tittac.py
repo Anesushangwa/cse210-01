@@ -41,7 +41,7 @@ def winner(board):
             board[2] == board[4] == board[6])
 
 def make_move(player, board):
-    square = int(input(f"{player}'please  choose a square (1-9): "))
+    square = int(input(f"{player}'please  choose a square  (1-9): "))
     board[square - 1] = player
 
 def next_player(current):
